@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'iconfont'; /* project id 2157966 */
+  src: url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.eot');
+  src: url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.eot?#iefix')
+      format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2157966_ciaw8v9bi8p.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: '\e619';
+}
+
+.icon-menu:before {
+  content: '\e652';
+}
+
+.icon-person:before {
+  content: '\e60e';
+}
+
+.icon-share:before {
+  content: '\e60c';
+}
+
+.icon-back:before {
+  content: '\e65e';
+}
+
+.icon-progress:before {
+  content: '\e609';
+}
+
+.icon-more:before {
+  content: '\e700';
+}
+
+.icon-bright:before {
+  content: '\e600';
+}

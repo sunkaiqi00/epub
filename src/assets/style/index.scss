@@ -1,0 +1,48 @@
+@import './reset.scss';
+@import './icon.scss';
+@import './global.scss';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'PingFangSC-Light', 'PingFang SC', 'STHeitiSC-Light', 'Helvetical-Light', 'Arial',
+    'sans-serif';
+}
+
+.iconfont {
+  color: #333;
+  font-size: px2rem(20);
+  cursor: pointer;
+}
+
+// 顶部次菜单动画  底部菜单动画  相同代码放在一起
+.slide-down-enter,
+.slide-down-leave-to {
+  transform: translate(0, -100%);
+}
+.slide-up-enter,
+.slide-up-leave-to {
+  transform: translate(0, px2rem(108));
+}
+.slide-down-enter-to,
+.slide-down-leave,
+.slide-up-enter-to,
+.slide-up-leave {
+  transform: translate(0, 0);
+}
+.slide-down-enter-active,
+.slide-down-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.5s linear;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+}
