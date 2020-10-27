@@ -22,17 +22,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 1. 设置字体
 
-   ![./image/setfont.png](E:\kaihuai\epub\image\setfont.png)
+   ![](./image/setfont.png)
 
 2. 设置主题
 
-   ![](E:\kaihuai\epub\image\settheme.png)
+   ![](./image/settheme.png)
 
 3. 进度条
 
-   ![](E:\kaihuai\epub\image\progress.png)
+   ![](./image/progress.png)
 
 4. 目录
 
-   ![](E:\kaihuai\epub\image\directory.png)
+   ![](./image/directory.png)
 
